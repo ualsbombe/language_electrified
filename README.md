@@ -16,6 +16,9 @@ It has been tested with FieldTrip-20190716 and MNE-Python 0.18.2
 To give newcomers to the electro- and magnetoencephalography fields a practical introduction to coding.
 
 ## Installation
+1) Go to the folder where you want to keep the analysis-related filed (scripts, figures and data)
+2) Download and run _create_paths.sh_
+3) 
 
 ## Licence
 CC BY 4.0
