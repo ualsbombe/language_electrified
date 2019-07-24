@@ -17,8 +17,10 @@ To give newcomers to the electro- and magnetoencephalography fields a practical 
 
 ## Installation
 1) Go to the folder where you want to keep the analysis-related filed (scripts, figures and data)
-2) Download and run _create_paths.sh_
-3) 
+2) Download and run _create\_paths.sh_
+3) Download the scripts folders into _language\_EEG_ and _language\_MEG_ respectively
+4) Get the data for subject subj2 (EEG) __needs a DOI___ and put in in the data folder of _language\_EEG_
+5) Get the data for subject _sub-V1002_ from http://hdl.handle.net/11633/di.dccn.DSC_3011020.09_236 and put it in the data folder of _language\_MEG_
 
 ## Licence
 CC BY 4.0
