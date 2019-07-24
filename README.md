@@ -13,7 +13,7 @@ This code is accompanying the chapter reference above and is intended to be used
 It has been tested with FieldTrip-20190716 and MNE-Python 0.18.2
 
 ## Motivation
-To give newcomers to the electro- and magnetoencephalography fields a first, practical introduction to coding
+To give newcomers to the electro- and magnetoencephalography fields a practical introduction to coding.
 
 ## Installation
 
