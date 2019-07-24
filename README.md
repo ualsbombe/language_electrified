@@ -21,6 +21,7 @@ To give newcomers to the electro- and magnetoencephalography fields a practical 
 3) Download the scripts folders into _language\_EEG_ and _language\_MEG_ respectively
 4) Get the data for subject subj2 (EEG) __needs a DOI___ and put in in the data folder of _language\_EEG_
 5) Get the data for subject _sub-V1002_ from http://hdl.handle.net/11633/di.dccn.DSC_3011020.09_236 and put it in the data folder of _language\_MEG_
+6) Start running the scripts for the analyses (all called _single\_subject\_analysis_, ending on _.sh_, _.py_ and _.m_
 
 ## Licence
 CC BY 4.0
