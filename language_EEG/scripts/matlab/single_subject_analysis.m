@@ -83,7 +83,7 @@ cfg.refmethod   = 'avg';
 
 eog_vertical = ft_preprocessing(cfg, data);
 
-% keep only one channel and rename it to EEGv
+% keep only one channel and rename it to EOGv
 cfg         = [];
 cfg.channel = '64'; % the channel to keep
 
@@ -100,7 +100,7 @@ cfg.refmethod   = 'avg';
 
 eog_horizontal = ft_preprocessing(cfg, data);
 
-% keep only channel and rename it to EEGh (logic similar to above)
+% keep only channel and rename it to EOGh (logic similar to above)
 cfg         = [];
 cfg.channel = '60';
 
@@ -366,7 +366,7 @@ print(quality_plot, fullfile(figures_dir, 'quality_plot.jpeg'), '-djpeg', ...
 cfg = [];
 cfg.elec = elec_realigned;
 cfg.sourcemodel.pos = sourcemodel.pos;
-cfg.sourcemodel.inisde = 1:size(sourcemodel.pos, 1);
+cfg.sourcemodel.inside = 1:size(sourcemodel.pos, 1);
 cfg.headmodel = headmodel;
 
 leadfield = ft_prepare_leadfield(cfg);
